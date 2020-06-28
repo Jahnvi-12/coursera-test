@@ -8,7 +8,71 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-  </head>
+  <style>
+  
+    body {
+  font-size: 16px;
+  color: white;
+  background-color: #8243d6;
+  font-family: 'Lobster', cursive;
+}
+
+/* HEADER */
+#header-nav {
+  background-color: #530fad;
+  border-radius: 0;
+  border: 0;
+  color: white;
+}
+
+.navbar-brand p {
+  color: grey;
+  font-size: 20px;
+}
+
+.navbar-brand a:focus, .navbar-brand a:hover {
+  text-decoration: none;
+}
+
+#nav-list a {
+  color: grey;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background-color: #8243d6;
+}
+/* END HEADER */
+
+/* Section */
+#home {
+  margin-bottom: 30px;
+}
+
+.border-top-width: {
+  
+  position: relative;
+  float: left;
+}
+
+.row > div > article {
+  background-color: white;
+  text-align: justify;
+  margin-bottom: 20px;
+  padding: 12px;
+  color: black;
+}
+/* End Section */
+
+
+@media (max-width: 767px) {
+  .row> div > article {
+    width: 80%;
+    margin: 20px auto 0;
+  }
+}
+</style></head>
+
 <body>
   <header>
     <nav id="header-nav" class="navbar navbar-default">
